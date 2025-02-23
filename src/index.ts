@@ -20,7 +20,7 @@ app.use(clerkMiddleware({
     secretKey:process.env.CLERK_SECRET_KEY,
 }))
 app.use(cors({
-    origin: "https://fed-storefront-frontend-praveen.netlify.app/",
+    origin: "https://fed-storefront-frontend-praveen.netlify.app",
     credentials: true
 }));
 
